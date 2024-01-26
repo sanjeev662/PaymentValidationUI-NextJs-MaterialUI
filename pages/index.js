@@ -1,11 +1,11 @@
-// pages/index.js
-import "h8k-components";
+import React from "react";
 import PaymentValidationPage from "./payment-validation";
+import NavbarPage from "./navbar";
 
 const App = () => {
   return (
     <div className="App">
-      <h8k-navbar header="Payment Validation"></h8k-navbar>
+      <NavbarPage/>
       <div className="layout-row justify-content-center mt-30">
         <PaymentValidationPage />
       </div>

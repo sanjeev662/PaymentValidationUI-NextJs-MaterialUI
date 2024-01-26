@@ -5,4 +5,7 @@
   .hydrated {
     width: fit-content !important;
   }
+  .App {
+    width: fit-content !important;
+  }
 }
